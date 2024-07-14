@@ -1,0 +1,13 @@
+#git ignore for CMake
+cmake-build-debug
+
+#ide
+.idea
+
+#executable files
+*.exe
+*.o
+
+#libraries
+*.ddl
+*.lib
