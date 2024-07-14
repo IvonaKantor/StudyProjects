@@ -22,7 +22,6 @@ EVENT operator>>(CLIENT c, SERVER s) {
 };
 
 int _tmain(int argc, _TCHAR *argv[]) {
-
     EVENT e1 = CONNECT >> STARTING;
     EVENT e2 = CONNECT >> WORK;
     EVENT e3 = SEND >> SHOOTDOWN;
